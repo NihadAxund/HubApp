@@ -1,0 +1,106 @@
+#rooms{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 208, 0);
+    display: none;
+    flex-wrap: nowrap;
+    padding: 1vi;
+}
+.Rooms_Item{
+    margin: 5px;
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rebeccapurple;
+}
+
+.Rooms_Item>button{
+    height: 20%;
+    width: 50px;
+}
+
+.Rooms_Item>*{
+    margin: 5px;
+}
+
+
+.Label_txt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Label_txt>:nth-child(1){
+    color: white;
+    font-size: 1em;
+}
+.Label_txt>:nth-child(2){
+    color: gold;
+    font-size: 1em;
+}
+
+#room{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction:row;
+}
+.Info{
+    width: 60%;
+    background-color: rgb(215, 225, 250);
+}
+.Chat{
+    width: 40%;
+    background-color: antiquewhite;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Chat_box{
+    width: 95%;
+    height: 92%;
+    background-color: rgb(190, 190, 190);
+    overflow-y: scroll;
+}
+#Chat_Boxes{
+
+    height: 90%;
+    width: 15em;
+}
+.Send{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Send>button{
+    height: 100%;
+    background-image: url(https://cdn3d.iconscout.com/3d/premium/thumb/send-3316956-2761511.png);
+    background-position: center;
+    background-size: cover;
+    border: 1 solid black;
+    width: 10%;
+    padding: 10px;
+}
+
+.my-message {
+    color: rgb(0, 81, 255);
+    text-align: right;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .other-message {
+    color: rgb(255, 0, 0);
+    text-align: left;
+    padding: 5px;
+  }
