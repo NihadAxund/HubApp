@@ -1,7 +1,6 @@
 #rooms{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(255, 208, 0);
+    width: 90%;
+    height: 80vh;
     display: none;
     flex-wrap: nowrap;
     padding: 1vi;
